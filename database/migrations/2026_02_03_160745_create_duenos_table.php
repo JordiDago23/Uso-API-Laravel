@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id('id_persona');
             $table->string('nombre')->nullable(false);
             $table->string('apellido')->nullable(false);
-            $table->foreignId('animal')->references('id_animal')->on('animales')->onDelete('cascade');;
             $table->timestamps();
         });
     }
