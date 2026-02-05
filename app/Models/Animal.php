@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Dueno;
 
 class Animal extends Model
 {
@@ -21,4 +22,9 @@ class Animal extends Model
         'dueno',
     ];
 
+    // 🔗 RELACIÓN
+    public function dueno()
+    {
+        return $this->belongsTo(Dueno::class, 'dueno', 'id_persona');
+    }
 }

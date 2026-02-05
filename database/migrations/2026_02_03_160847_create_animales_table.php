@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id('id_animal');
             $table->string('nombre')->nullable(false);
             $table->enum('tipo', ['perro', 'gato', 'hámster', 'conejo'])->nullable(false);
-            $table->decimal('peso', 3,2);
+            $table->decimal('peso', 5,2);
             $table->string('enfermedad')->nullable();
             $table->text('comentarios')->nullable();
             $table->foreignId('dueno')->references('id_persona')->on('duenos')->onDelete('cascade');
