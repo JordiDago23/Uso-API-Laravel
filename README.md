@@ -1,9 +1,9 @@
 # Documetacion del Proyecto
 
 <p>
-En esta Documentacion se mostraran las imagenes de las diferentes operaciones que se pueden realizar en una API como postamn en
-este caso para realizar ciertas operaciones en nuestra base de datos, para emostra como se realizan y su resultado
-</p><br>
+En esta documentación se muestran las imágenes de las distintas operaciones realizadas en el proyecto, las cuales se prueban utilizando Postman como herramienta de validación.
+Postman se emplea para comprobar que las funcionalidades implementadas en el proyecto funcionan correctamente y que las operaciones sobre la base de datos se realizan según lo esperado.
+</p>
 
 ## Crear un Dueño o Animal
 
