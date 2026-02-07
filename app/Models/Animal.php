@@ -22,9 +22,4 @@ class Animal extends Model
         'dueno',
     ];
 
-    // 🔗 RELACIÓN
-    public function dueno()
-    {
-        return $this->belongsTo(Dueno::class, 'dueno', 'id_persona');
-    }
 }

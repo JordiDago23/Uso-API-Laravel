@@ -9,7 +9,7 @@ class AnimalController extends Controller
 {
     public function index()
     {
-        return Animal::with('dueno')->get();
+        return Animal::all();
     }
 
     public function store(Request $request)
@@ -26,9 +26,9 @@ class AnimalController extends Controller
         return Animal::create($request->all());
     }
 
-    public function show($id)
+    public function show()
     {
-        return Animal::with('dueno')->findOrFail($id);
+        //
     }
 
     public function update(Request $request, $id)

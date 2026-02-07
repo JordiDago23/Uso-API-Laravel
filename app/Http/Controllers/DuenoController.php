@@ -9,7 +9,7 @@ class DuenoController extends Controller
 {
     public function index()
     {
-        return Dueno::with('animales')->get();
+        return Dueno::all();
     }
 
     public function store(Request $request)
@@ -22,9 +22,9 @@ class DuenoController extends Controller
         return Dueno::create($request->all());
     }
 
-    public function show($id)
+    public function show()
     {
-        return Dueno::with('animales')->findOrFail($id);
+        //
     }
 
     public function update(Request $request, $id)
