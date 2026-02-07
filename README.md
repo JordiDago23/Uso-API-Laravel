@@ -1,59 +1,49 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Documetacion del Proyecto
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<p>
+En esta Documentacion se mostraran las imagenes de las diferentes operaciones que se pueden realizar en una API como postamn en
+este caso para realizar ciertas operaciones en nuestra base de datos, para emostra como se realizan y su resultado
+</p><br>
 
-## About Laravel
+## Crear un Dueño o Animal
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### **Dueño**
+<img width="845" height="451" alt="crear_dueno" src="https://github.com/user-attachments/assets/58412fe8-beca-4fea-a5eb-ae29ab1ca1d0" />
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### **Animal**
 
-## Learning Laravel
+<img width="839" height="627" alt="crear_animal" src="https://github.com/user-attachments/assets/3d85e0a7-e292-40b8-95ba-f80670550e35" /><br>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Listar Dueños o Animales
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### **Dueño**
+<img width="842" height="559" alt="listar_duenos" src="https://github.com/user-attachments/assets/a3736c9d-1f2f-4615-b060-f52a4da9e699" />
 
-## Laravel Sponsors
+<br>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### **Animal**
+<img width="844" height="629" alt="listar_animales" src="https://github.com/user-attachments/assets/2bb7911e-d952-4c25-87d3-d1e24793ef74" /><br>
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Modificar Dueños o Animales
 
-## Contributing
+### **Dueño**
+<img width="840" height="489" alt="modificar_dueno" src="https://github.com/user-attachments/assets/da8615b5-feb1-42f2-9df7-797d4005722d" />
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<br>
 
-## Code of Conduct
+### **Animal**
+<img width="837" height="591" alt="modificar_animales" src="https://github.com/user-attachments/assets/bc2b61b3-51e3-4afa-a8a8-3b0b032fe065" /><br>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Eliminar Dueños o Animales
 
-## Security Vulnerabilities
+### **Dueño**
+<img width="839" height="377" alt="eliminar_dueno" src="https://github.com/user-attachments/assets/d440e3a1-d0b6-46da-89a4-6acba2af3318" />
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<br>
 
-## License
+### **Animal**
+<img width="837" height="389" alt="eliminar_animal" src="https://github.com/user-attachments/assets/4a9d36f1-ff22-4353-94b3-9343a70630c7" />
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
